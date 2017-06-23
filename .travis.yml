@@ -2,7 +2,7 @@ sudo: required
 language: node_js
 node_js: 6
 before_install:
-- pip install awscli
+- sudo pip install awscli
 after_success:
 - npm run build
 - aws s3 cp --recursive build/ s3://bcc1.us/
