@@ -16,8 +16,6 @@ class App extends Component {
         <p className="App-body"> 
         Contact <a href="emailto:charliemcclung.com">Charlie McClung</a> or <a href="emailto:brandon.cabael@gmail.com">Brandon Cabael</a> with any question/comments.
         </p>  
-        <footer>Copyright &copy; 2017</footer>
-        <footer>Designed by Brandon Cabael</footer>
       </div>
     );
   }
